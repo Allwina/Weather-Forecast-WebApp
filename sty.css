@@ -1,0 +1,133 @@
+body{
+    background:  no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 1rem 5rem;
+    height: 100%;
+    color: black;
+    overflow-x: hidden;
+    margin-top: 220px;
+    background-image: url('https://source.unsplash.com/1600x900/?landscape'); 
+}
+
+#input{
+    font-size: 18px;
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    background: aliceblue;
+}
+#search{
+    background: none;
+    padding: 5px 20px;
+    color: aliceblue;
+    outline: none;
+    background: cadetblue;
+    font-size: 17px;
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+}
+.weather{
+    text-align: center;
+    color: aliceblue;
+}
+#city{
+    font-size: 30px;
+}
+.weather img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: rgba(240, 248, 255, 0.408);
+}
+#temperature{
+    font-size: 50px;
+    margin: 0;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.temp-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+#clouds{
+    font-size: 20px;
+    background: rgba(153, 205, 50, 0.778);
+    padding: 2px 20px;
+    border-radius: 15px;
+}
+main{
+    display: grid;
+    grid-column-gap: 25px;
+    grid-template-columns: 1fr 5px 1fr;
+    align-items: center;
+    margin: 0.25px;
+    color: white;
+    background-color:#000000d0;
+ 
+    padding: 40px;
+}
+.next{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+.next p,.next h3{
+    margin: 3px 0;
+    align-items: center;
+}
+.forecstD{
+    margin: 20px 50px;
+    color: aliceblue;
+}
+.weekF{
+    display: grid;
+    grid: auto auto / auto auto auto ;
+     /* grid-template-rows:  15% auto  ; 
+    grid-template-areas: none;  */
+   grid-row-gap: 100px 20px;
+   padding: 10px;
+}
+
+.cast-header{
+    color: aliceblue;
+    background:cadetblue;
+    width: max-content;
+    padding: 15px 15px;
+    border-radius: 20px;
+    font-size: 18px;
+    margin-bottom: 1px;
+}
+.divider1,.divider2{
+    background: rgba(254, 189, 132, 0.539);
+    height: 200px;
+    border-radius: 5px;
+}
+.divider2{
+    height: 5px;
+    width: 30%;
+    margin: 0 auto;
+}
+.time,.date{
+    color: rgb(254, 189, 132);
+}
+.desc{
+    color: rgb(196, 255, 77);
+    
+}
+
+  .mainer{
+    color:black;
+    background-color: rgba(255, 255, 255, .4);
+    align-items: center;
+    padding: 20px;
+    border:1px solid white;
+    text-align: center;
+  }
+ 
